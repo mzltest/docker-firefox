@@ -1,5 +1,7 @@
-name: web
-image: jlesage/firefox:1
-command: bash
-ports:
-  - 5800:5800
+services:
+    firefox:
+        public: true
+        container_name: dreve
+        image: jlesage/firefox:1 
+        ports:
+            - 5800:5800
