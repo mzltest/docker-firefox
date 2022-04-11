@@ -1,5 +1,5 @@
 name: web
 image: jlesage/firefox:1
 command: bash
-forward:
+ports:
   - 5800:5800
