@@ -1,5 +1,5 @@
 services:
-      chromedbg:
+    chromedbg:
         public: chromedbg
         container_name: chrome
         image: browserless/chrome
