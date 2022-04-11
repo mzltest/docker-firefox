@@ -1,7 +1,19 @@
 services:
-    firefox:
-        public: true
-        container_name: dreve
-        image: jlesage/firefox
+    chromewrp:
+        public: chromewrp
+        container_name: chromewrp
+        image: tenox7/wrp
         ports:
+            - 80:8080
+    chromedbg:
+        public: chromedbg
+        container_name: chrome
+        image: browserless/chrome
+        ports:
+            - 3000:3000
+    firefox:
+        public: firefox
+        container_name: firefox
+        image: jlesage/firefox
+        ports: 
             - 5800:5800
