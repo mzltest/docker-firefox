@@ -1,0 +1,5 @@
+name: web
+image: jlesage/firefox:1
+command: bash
+forward:
+  - 5800:5800
