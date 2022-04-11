@@ -1,7 +1,7 @@
 services:
-    chromedbg:
-        public: chromedbg
-        container_name: chrome
+    cdbg:
+        public: true
+        container_name: cdbg
         image: browserless/chrome
         ports:
             - 3000:3000
